@@ -1,5 +1,9 @@
 # 🕵️ Catch The Lie
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-mystry-game-b886btm4cpbf7gkzyof4gm.streamlit.app/)
+
+**Play Live:** [https://ai-mystry-game-b886btm4cpbf7gkzyof4gm.streamlit.app/](https://ai-mystry-game-b886btm4cpbf7gkzyof4gm.streamlit.app/)
+
 **Catch The Lie** is an interactive AI-powered detective mystery game. Players step into the shoes of an investigator to interrogate suspects, inspect crime scenes for evidence, catch contradictions in suspect statements, and present conclusive proof to crack the case.
 
 ---
