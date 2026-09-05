@@ -1,0 +1,16 @@
+# Secrets & Environment Variables (NEVER commit your actual API keys)
+.env
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Streamlit temporary data
+.streamlit/secrets.toml

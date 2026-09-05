@@ -1,0 +1,362 @@
+{
+  "cases": [
+    {
+      "title": "The Missing Painting",
+      "victim_context": "A rare painting vanished from the Sharma Art Gallery during last night's private viewing.",
+      "suspects": [
+        {
+          "id": "MP1",
+          "name": "Sana Kapoor",
+          "role": "Gallery Assistant",
+          "avatar": "👩‍💼",
+          "personality": "Calm and polished on the surface, but gives short, guarded answers.",
+          "alibi_text": "I was taking inventory in the back room.",
+          "breaking_clue": { "id": "C_MP1", "text": "The back room motion sensor log shows no movement during the time Gallery Assistant Sana claimed to be there.", "type": "breaking" }
+        },
+        {
+          "id": "MP2",
+          "name": "Dev Malhotra",
+          "role": "Rival Collector",
+          "avatar": "🎩",
+          "personality": "Smug and confident, enjoys being a suspect, subtly arrogant.",
+          "alibi_text": "I was chatting with the mayor in the main hall.",
+          "breaking_clue": { "id": "C_MP2", "text": "The mayor's official schedule confirms he left the event an hour before Collector Dev claims they spoke.", "type": "breaking" }
+        },
+        {
+          "id": "MP3",
+          "name": "Arjun Joshi",
+          "role": "Art Critic",
+          "avatar": "🧔",
+          "personality": "Friendly and chatty, tries to charm the detective, deflects with humor.",
+          "alibi_text": "I was admiring the sculptures in the east wing.",
+          "breaking_clue": { "id": "C_MP3", "text": "The east wing was locked and sealed for renovation all night, meaning Art Critic Arjun could not enter.", "type": "breaking" }
+        },
+        {
+          "id": "MP4",
+          "name": "Neha Rao",
+          "role": "Security Guard",
+          "avatar": "🛡️",
+          "personality": "Formal and procedural, quotes 'protocol' often, avoids blame.",
+          "alibi_text": "I was patrolling the second floor corridors.",
+          "breaking_clue": { "id": "C_MP4", "text": "A sleeping mask and coffee cup were found at Security Guard Neha's desk, with no patrol logged.", "type": "breaking" }
+        },
+        {
+          "id": "MP5",
+          "name": "Ravi Mehta",
+          "role": "Gallery Owner",
+          "avatar": "🕴️",
+          "personality": "Nervous, over-explains everything, talks fast when pressed.",
+          "alibi_text": "I was in my office on a business call.",
+          "breaking_clue": { "id": "C_MP5", "text": "Telecom logs confirm no outgoing or incoming calls were made from Gallery Owner Ravi's office phone.", "type": "breaking" }
+        }
+      ]
+    },
+    {
+      "title": "The Locked Office",
+      "victim_context": "CEO Vikram Anand was found unconscious in his locked office after the company party.",
+      "suspects": [
+        {
+          "id": "LO1",
+          "name": "Priya Nair",
+          "role": "Cleaning Staff",
+          "avatar": "🧹",
+          "personality": "Soft-spoken, worried, tends to over-apologize.",
+          "alibi_text": "I was cleaning the lobby on the ground floor.",
+          "breaking_clue": { "id": "C_LO1", "text": "Cleaning staff Priya Nair's mop bucket was found abandoned right outside the CEO's 5th floor office.", "type": "breaking" }
+        },
+        {
+          "id": "LO2",
+          "name": "Karan Verma",
+          "role": "Personal Driver",
+          "avatar": "🚕",
+          "personality": "Blunt, short answers, slightly defensive about being questioned at all.",
+          "alibi_text": "I was parked outside waiting in the car the whole night.",
+          "breaking_clue": { "id": "C_LO2", "text": "The parking lot camera shows Driver Karan's designated vehicle left the lot for an hour at 10 PM.", "type": "breaking" }
+        },
+        {
+          "id": "LO3",
+          "name": "Anita Desai",
+          "role": "Chief Financial Officer",
+          "avatar": "📊",
+          "personality": "Cold, logical, treats the interrogation like a business meeting.",
+          "alibi_text": "I left the party early to go home.",
+          "breaking_clue": { "id": "C_LO3", "text": "A neighbor's doorbell camera shows CFO Anita Desai returning home past 1 AM, not early.", "type": "breaking" }
+        },
+        {
+          "id": "LO4",
+          "name": "Rahul Singh",
+          "role": "Intern",
+          "avatar": "👦",
+          "personality": "Anxious, eager to please, stutters when nervous.",
+          "alibi_text": "I was getting drinks for everyone from the kitchen.",
+          "breaking_clue": { "id": "C_LO4", "text": "Catering staff confirmed the kitchen was closed and Intern Rahul never requested any drinks.", "type": "breaking" }
+        },
+        {
+          "id": "LO5",
+          "name": "Meera Iyer",
+          "role": "Event Planner",
+          "avatar": "📋",
+          "personality": "Overly organized, quotes exact times and schedules, sounds rehearsed.",
+          "alibi_text": "I was checking the sound system in the ballroom.",
+          "breaking_clue": { "id": "C_LO5", "text": "The DJ testified that the sound system was packed away hours earlier without Event Planner Meera.", "type": "breaking" }
+        }
+      ]
+    },
+    {
+      "title": "The Vanishing Bride",
+      "victim_context": "The bride disappeared minutes before her wedding at the Rosewood Resort.",
+      "suspects": [
+        {
+          "id": "VB1",
+          "name": "Aman Gupta",
+          "role": "The Groom",
+          "avatar": "🤵",
+          "personality": "Frantic, emotional, desperate to find his bride.",
+          "alibi_text": "I was getting dressed in my suite.",
+          "breaking_clue": { "id": "C_VB1", "text": "The groomsmen testified Groom Aman locked them out of the suite and was missing for 30 minutes.", "type": "breaking" }
+        },
+        {
+          "id": "VB2",
+          "name": "Simran Kaur",
+          "role": "Maid of Honor",
+          "avatar": "👗",
+          "personality": "Sarcastic, gossipy, doesn't seem very sad about the disappearance.",
+          "alibi_text": "I was touching up my makeup in the ladies' room.",
+          "breaking_clue": { "id": "C_VB2", "text": "A guest reported seeing Maid of Honor Simran having a furious argument outside the bridal suite.", "type": "breaking" }
+        },
+        {
+          "id": "VB3",
+          "name": "Rohan Das",
+          "role": "Ex-Boyfriend",
+          "avatar": "🕶️",
+          "personality": "Defensive, bitter, insists he only came to wish her well.",
+          "alibi_text": "I was at the bar getting a drink.",
+          "breaking_clue": { "id": "C_VB3", "text": "The resort bartender confirms Ex-Boyfriend Rohan was cut off and stormed toward the bridal wing.", "type": "breaking" }
+        },
+        {
+          "id": "VB4",
+          "name": "Nina Patel",
+          "role": "Wedding Planner",
+          "avatar": "📝",
+          "personality": "Stressed, constantly checking her watch, obsessed with the schedule.",
+          "alibi_text": "I was dealing with the florist at the front gate.",
+          "breaking_clue": { "id": "C_VB4", "text": "The gate guard log confirms the florist arrived hours before Planner Nina claims she met them.", "type": "breaking" }
+        },
+        {
+          "id": "VB5",
+          "name": "Mrs. Sharma",
+          "role": "Mother of the Groom",
+          "avatar": "👵",
+          "personality": "Haughty, traditional, very concerned about family reputation.",
+          "alibi_text": "I was greeting guests in the reception area.",
+          "breaking_clue": { "id": "C_VB5", "text": "Several guests mentioned Groom's mother Mrs. Sharma was completely missing from the reception line.", "type": "breaking" }
+        }
+      ]
+    },
+    {
+      "title": "The Poisoned Toast",
+      "victim_context": "A prominent politician collapsed after drinking a toast at a charity gala.",
+      "suspects": [
+        {
+          "id": "PT1",
+          "name": "Vikram Singh",
+          "role": "Political Rival",
+          "avatar": "👔",
+          "personality": "Smooth-talking, deflects questions with political jargon.",
+          "alibi_text": "I was giving an interview to the press in the lobby.",
+          "breaking_clue": { "id": "C_PT1", "text": "The press corps sign-out log proves all journalists had left before Rival Vikram Singh claims they interviewed him.", "type": "breaking" }
+        },
+        {
+          "id": "PT2",
+          "name": "Chef Marco",
+          "role": "Head Caterer",
+          "avatar": "👨‍🍳",
+          "personality": "Proud, easily offended if you question his food, speaks passionately.",
+          "alibi_text": "I was in the kitchen plating the dessert.",
+          "breaking_clue": { "id": "C_PT2", "text": "A banquet waiter saw Head Caterer Chef Marco tampering with the drink table just before the toast.", "type": "breaking" }
+        },
+        {
+          "id": "PT3",
+          "name": "Tara Menon",
+          "role": "Campaign Manager",
+          "avatar": "📱",
+          "personality": "Intense, speaks quickly, always holding a phone.",
+          "alibi_text": "I was outside making an urgent campaign call.",
+          "breaking_clue": { "id": "C_PT3", "text": "Phone carrier records confirm Campaign Manager Tara Menon made no phone calls all evening.", "type": "breaking" }
+        },
+        {
+          "id": "PT4",
+          "name": "Rajiv Khanna",
+          "role": "Bartender",
+          "avatar": "🍸",
+          "personality": "Laid-back, observant, answers casually.",
+          "alibi_text": "I was restocking glasses from the back room.",
+          "breaking_clue": { "id": "C_PT4", "text": "The glassware back room remained locked and untracked, meaning Bartender Rajiv was elsewhere.", "type": "breaking" }
+        },
+        {
+          "id": "PT5",
+          "name": "Sonia Verma",
+          "role": "Scorned Journalist",
+          "avatar": "📸",
+          "personality": "Cynical, asks questions back to the detective, highly observant.",
+          "alibi_text": "I was taking photos from the balcony.",
+          "breaking_clue": { "id": "C_PT5", "text": "Security had locked the balcony doors from inside, preventing Journalist Sonia from being there.", "type": "breaking" }
+        }
+      ]
+    },
+    {
+      "title": "The Midnight Heist",
+      "victim_context": "Three million dollars in untraceable diamonds were stolen from a high-security vault.",
+      "suspects": [
+        {
+          "id": "MH1",
+          "name": "Mr. Oberoi",
+          "role": "Bank Manager",
+          "avatar": "💼",
+          "personality": "Sweating profusely, overly cooperative, insists the vault is impenetrable.",
+          "alibi_text": "I was asleep at home, miles away.",
+          "breaking_clue": { "id": "C_MH1", "text": "Bank Manager Mr. Oberoi's personal car was ticketed for parking outside the bank at 1 AM.", "type": "breaking" }
+        },
+        {
+          "id": "MH2",
+          "name": "Jai Kumar",
+          "role": "Night Guard",
+          "avatar": "🔦",
+          "personality": "Sleepy, confused, defensively claims he never fell asleep.",
+          "alibi_text": "I was doing my hourly rounds on the second floor.",
+          "breaking_clue": { "id": "C_MH2", "text": "The electronic badge log shows Night Guard Jai Kumar never left the ground floor desk.", "type": "breaking" }
+        },
+        {
+          "id": "MH3",
+          "name": "Samir Khan",
+          "role": "Vault Technician",
+          "avatar": "🔧",
+          "personality": "Technical, uses jargon, dismissive of non-experts.",
+          "alibi_text": "I was out of town at a security conference.",
+          "breaking_clue": { "id": "C_MH3", "text": "A motel receipt shows Vault Tech Samir Khan checked in across the street from the bank that night.", "type": "breaking" }
+        },
+        {
+          "id": "MH4",
+          "name": "Maya Singh",
+          "role": "Cleaning Staff",
+          "avatar": "🧽",
+          "personality": "Quiet, avoids eye contact, claims she saw nothing.",
+          "alibi_text": "I was vacuuming the manager's office.",
+          "breaking_clue": { "id": "C_MH4", "text": "Cleaner Maya Singh's vacuum was discovered locked in the closet, cold and completely unused.", "type": "breaking" }
+        },
+        {
+          "id": "MH5",
+          "name": "Tony 'Fingers'",
+          "role": "Local Thief",
+          "avatar": "🦹",
+          "personality": "Cocky, uses slang, openly admits to past crimes but denies this one.",
+          "alibi_text": "I was playing cards at the club.",
+          "breaking_clue": { "id": "C_MH5", "text": "The card club bouncer confirmed Tony 'Fingers' was kicked out hours before he claims he was playing.", "type": "breaking" }
+        }
+      ]
+    },
+    {
+      "title": "The Ghost Ship",
+      "victim_context": "A luxury yacht arrived at the dock with the engine running, but the owner was completely missing.",
+      "suspects": [
+        {
+          "id": "GS1",
+          "name": "Captain Morgan",
+          "role": "Ship Captain",
+          "avatar": "⚓",
+          "personality": "Gruff, uses nautical terms, defensive about his ship.",
+          "alibi_text": "I was steering the ship from the bridge the entire time.",
+          "breaking_clue": { "id": "C_GS1", "text": "The helm log proves Captain Morgan engaged the autopilot for 3 hours while the yacht drifted.", "type": "breaking" }
+        },
+        {
+          "id": "GS2",
+          "name": "Leo",
+          "role": "Deckhand",
+          "avatar": "⛵",
+          "personality": "Young, nervous, keeps looking around the room.",
+          "alibi_text": "I was in the lower deck fixing a leak.",
+          "breaking_clue": { "id": "C_GS2", "text": "The maintenance log proves Deckhand Leo performed zero leak repairs anywhere on the vessel.", "type": "breaking" }
+        },
+        {
+          "id": "GS3",
+          "name": "Isabella",
+          "role": "Owner's Wife",
+          "avatar": "💎",
+          "personality": "Glamorous, surprisingly calm, sheds fake tears.",
+          "alibi_text": "I was sunbathing on the top deck.",
+          "breaking_clue": { "id": "C_GS3", "text": "The marine weather log proves torrential rain fell all night, making sunbathing for Isabella impossible.", "type": "breaking" }
+        },
+        {
+          "id": "GS4",
+          "name": "Dr. Vance",
+          "role": "Private Doctor",
+          "avatar": "🩺",
+          "personality": "Clinical, precise, cites medical confidentiality.",
+          "alibi_text": "I was reading in my cabin.",
+          "breaking_clue": { "id": "C_GS4", "text": "Dr. Vance's electronic keycard was found dropped near the wet stern railing where the owner vanished.", "type": "breaking" }
+        },
+        {
+          "id": "GS5",
+          "name": "Chef Gordon",
+          "role": "Yacht Chef",
+          "avatar": "🍳",
+          "personality": "Loud, angry, curses frequently.",
+          "alibi_text": "I was preparing dinner in the galley.",
+          "breaking_clue": { "id": "C_GS5", "text": "The galley stove was cold to the touch, proving Chef Gordon never cooked or prepared any dinner.", "type": "breaking" }
+        }
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "R1",
+      "text": "A torn ticket stub was found near the side entrance.",
+      "type": "red_herring"
+    },
+    {
+      "id": "R2",
+      "text": "Someone reported a broken window on the east wing, unrelated to the case.",
+      "type": "red_herring"
+    },
+    {
+      "id": "R3",
+      "text": "A guest mentioned smelling cigarette smoke near the garden, though smoking wasn't allowed.",
+      "type": "red_herring"
+    },
+    {
+      "id": "R4",
+      "text": "Two staff members were overheard arguing about shift schedules earlier that day.",
+      "type": "red_herring"
+    },
+    {
+      "id": "R5",
+      "text": "A muddy footprint was found near the back door, but it matches a common work boot.",
+      "type": "red_herring"
+    },
+    {
+      "id": "R6",
+      "text": "The lights flickered momentarily around 9:30 PM due to a known city power surge.",
+      "type": "red_herring"
+    },
+    {
+      "id": "R7",
+      "text": "A suspicious black van was seen idling on the street, but it belonged to a plumbing service.",
+      "type": "red_herring"
+    },
+    {
+      "id": "R8",
+      "text": "An anonymous tip called the police, but it turned out to be a prank from a local teenager.",
+      "type": "red_herring"
+    },
+    {
+      "id": "R9",
+      "text": "A shattered wine glass was found on the floor, likely dropped by a clumsy waiter.",
+      "type": "red_herring"
+    },
+    {
+      "id": "R10",
+      "text": "A cryptic note reading 'It ends tonight' was found, but it was just a discarded movie script.",
+      "type": "red_herring"
+    }
+  ]
+}
